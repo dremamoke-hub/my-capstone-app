@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-    res.send('<h1>🚀 Capstone Project Live! Built by Group 1/3/5</h1><p>CI/CD is working perfectly!</p>');
+    res.send('<h1>🚀 Capstone Project Live! Built by Group 1/3/5</h1><p>Oh wow, Group 1 just built an automated DevOps pipeline!</p>');
 });
 
 // Basic Error Handling
